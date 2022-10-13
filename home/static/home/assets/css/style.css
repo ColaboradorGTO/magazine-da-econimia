@@ -51,7 +51,7 @@
 ====================================================================
 
  ***/
-* {
+ * {
   margin:0px;
   padding:0px;
   border:none;
@@ -1024,7 +1024,7 @@ img {
   font-weight:500;
   opacity:1;
   font-family: 'Poppins', sans-serif;
-  color:#222;
+  color: #fff;
   z-index:1;
   padding-right: 17px;
   -webkit-transition:all 500ms ease;

@@ -8,11 +8,11 @@ from product . models import *
 # Create your views here.
 
 def index(request):
-	brand = Brand.objects.all()
+	offer = Offer.objects.all
 	category = Category.objects.all().order_by('-created')[0:4]
 	product = Product.objects.all()
 	context = {
-		'brand_list': brand,
+		'offer_list': offer,
 	    'product_list': product,
 	    'category_list': category,
 	}

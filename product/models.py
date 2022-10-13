@@ -10,13 +10,10 @@ class Offer(models.Model):
 	image = StdImageField('Imagem', upload_to='Offer', variations={'thumb': {'width': 423, 'height': 681, 'crop': True }}) 
 	title = models.CharField('Título', max_length=255)
 	description = models.TextField('Descrição', max_length=300)
-	discount = models.IntegerField(default=0)
+	discount = models.IntegerField()
 
 	def __str__(self):
 		return self.title
-
-	def discount(self):
-	    return self.discount
 
 	class Meta:
 	    verbose_name = 'Oferta'
@@ -37,17 +34,6 @@ class Category(models.Model):
 	    verbose_name_plural = 'Categorias'	
 
 
-class Brand(models.Model):
-	created = models.DateTimeField(auto_now_add=True)
-	updated = models.DateTimeField(auto_now=True)
-	image = StdImageField('Imagem', upload_to='Brand', variations={'thumb': {'width': 295, 'height': 295, 'crop': True }}) 
-	title = models.CharField(max_length=255)
-	# image 
-
-	def __str__(self):
-		return self.title 
-
-
 class Product(models.Model):
 	created = models.DateTimeField(auto_now_add=True)
 	updated = models.DateTimeField(auto_now=True)
@@ -62,7 +48,6 @@ class Product(models.Model):
 	image3 = StdImageField('03. Imagem', upload_to='Product', null=True, blank=True, variations={'thumb': {'width': 460, 'height': 557, 'crop': True }})
 	image4 = StdImageField('04. Imagem', upload_to='Product', null=True, blank=True, variations={'thumb': {'width': 460, 'height': 597, 'crop': True }})
 	image5 = StdImageField('05. Imagem', upload_to='Product', null=True, blank=True, variations={'thumb': {'width': 460, 'height': 597, 'crop': True }})
-	brand = models.ForeignKey(Brand, on_delete=models.CASCADE, null=True, blank=True) 
 	stock = models.IntegerField(default=1) 
 	# Featuring  
 
@@ -77,7 +62,7 @@ class Product(models.Model):
 		value = f'{self.title}, {self.subtitle}, {self.id}' 
 		self.slug = slugify(value, allow_unicode=False)
 		super().save(*args, **kwargs)
-		
+
 	# Usar esse módulo para calcular fretes e cupons 
 	def get_product_price_by_size(self, size):
 	    return self.price + SizeVariant.objects.get(size_name = size).price	

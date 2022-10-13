@@ -29,19 +29,19 @@
                 
                 
                 <!-- Loop Here -->
-                {% for offer in offers_list %}
+                {% for offer in offer_list %}
                 <div class="slide-item">
                     <div class="auto-container">
                         <div class="content-inner">
                             <div class="content-box">
-                                <h1>{{ offer.title }} <br /><span>{{ offer.marked }}%</span> Desconto</h1>
+                                <h1>{{ offer.title }} <br /><span>50%</span> Desconto</h1>
                                 <h3>Summer Lookbook - 2020</h3>
                                 <p>{{ offer.description }}</p>
                                 <div class="btn-box">
                                     <a href="index.html" class="theme-btn-one">Ver todos os produtos<i class="flaticon-right-1"></i></a>
                                 </div>
                             </div>
-                            <figure class="image-box image-1"><img src="{{ offer.imagem.thumb.url }}" alt=""></figure>
+                            <figure class="image-box image-1"><img src="{{ offer.image.thumb.url }}" alt=""></figure>
                         </div> 
                     </div>
                 </div>
