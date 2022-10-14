@@ -142,3 +142,9 @@ EMAIL_USE_TSL = ''
 EMAIL_PORT = 587
 # EMAIL_HOST_USER = ''
 # EMAIL_HOST_PASSWORD = ''
+
+
+
+if not DEBUG:
+    STATIC_ROOT = os.path.join(BASE_DIR, '/home/gtomeubr/magazinedaeconomia.com.br/static')
+    MEDIA_ROOT = os.path.join(BASE_DIR, '/home/gtomeubr/magazinedaeconomia.com.br/media')

@@ -3,75 +3,75 @@
 /* color file */
 
 .scroll-top{
-  background: #ff4135;
+  background: #2CE8CB;
 }
 
 .preloader-close{
-  background: #ff4135;
+  background: #2CE8CB;
 }
 
 .main-header .header-top .info li a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .main-header .header-top .social-links li a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .main-header .menu-right-content li a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .main-header .search-btn .search-toggler:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .search-popup .search-form fieldset input[type="submit"]{
-	background: #ff4135;
+	background: #2CE8CB;
 }
 
 .search-popup .recent-searches li a:hover{
-	color: #ff4135;
-	border-color: #ff4135;
+	color: #2CE8CB;
+	border-color: #2CE8CB;
 }
 
 .search-popup .close-search:hover{
-	color: #ff4135;
+	color: #2CE8CB;
 }
 
 .main-menu .navigation > li > a span{
-	background: #ff4135;
+	background: #2CE8CB;
 }
 
 .main-menu .navigation > li > a span:before{
-	background: #ff4135;
+	background: #2CE8CB;
 }
 
 .main-menu .navigation > li.dropdown.current > a:before,
 .main-menu .navigation > li.dropdown:hover > a:before{
-	color: #ff4135;
+	color: #2CE8CB;
 }
 
 .main-menu .navigation > li.current > a,
 .main-menu .navigation > li:hover > a{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .banner-carousel .content-box h1 span{
-	color: #ff4135;
+	color: #2CE8CB;
 }
 
 .banner-carousel .owl-nav .owl-prev:hover,
 .banner-carousel .owl-nav .owl-next:hover{
-  background: #ff4135;
+  background: #2CE8CB;
 }
 
 .category-block-one h5 a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .category-block-one .image-box:before{
-	background: #ff4135;
+	background: #2CE8CB;
 }
 
 .shop-block-one .inner-box .image-box .category.green-bg{
@@ -79,24 +79,24 @@
 }
 
 .shop-block-one .inner-box .image-box .category.red-bg{
-  background: #ff4135;
+  background: #2CE8CB;
 }
 
 .main-menu .navigation > li > ul > li > a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .main-menu .navigation > li > .megamenu li > a:hover{
-	color: #ff4135;
+	color: #2CE8CB;
 }
 
 .main-menu .navigation > li > ul > li > ul > li > a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .sticky-header .main-menu .navigation > li.current > a, 
 .sticky-header .main-menu .navigation > li:hover > a{
-  background: #ff4135;
+  background: #2CE8CB;
 }
 
 .shop-block-one .inner-box .image-box .category.green-bg:before{
@@ -108,120 +108,120 @@
 }
 
 .shop-block-one .inner-box .image-box .category.red-bg:before{
-	background: #ff4135;
+	background: #2CE8CB;
 }
 
 .shop-block-one .inner-box .image-box .category.red-bg:after{
-	background: #ff4135;
+	background: #2CE8CB;
 }
 
 .shop-block-one .inner-box .image-box .info-list li a:hover{
-  background: #ff4135 !important;
+  background: #2CE8CB !important;
 }
 
 .shop-block-one .inner-box .lower-content a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .cta-section .cta-inner .theme-btn-one:after{
-  background: #ff4135;
+  background: #2CE8CB;
 }
 
 .cta-section .cta-inner .theme-btn-one:hover{
-  border-color: #ff4135;
+  border-color: #2CE8CB;
 }
 
 .news-block-one .inner-box .image-box{
-	background: #ff4135;
+	background: #2CE8CB;
 }
 
 .news-block-one .inner-box .lower-content h3 a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .news-block-one .inner-box .lower-content .post-info li a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .service-block-one .inner-box h3 a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .instagram-section .image-box .info-list li a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .main-footer .footer-top .links-widget .links-list li a:before{
-	background: #ff4135;
+	background: #2CE8CB;
 }
 
 .main-footer .footer-top .links-widget .links-list li a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .main-footer .footer-top .contact-widget .info-list li a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .footer-social li a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .theme-btn-two:after{
-	background: #ff4135;
+	background: #2CE8CB;
 }
 
 .main-footer .footer-top .newsletter-widget .widget-content .newsletter-form .form-group input:focus{
-  border-color: #ff4135 !important;
+  border-color: #2CE8CB !important;
 }
 
 .footer-bottom .copyright a:hover{
-  color: #ff4135 !important;
+  color: #2CE8CB !important;
 }
 
 .main-header .header-upper .search-info .form-group input:focus + button,
 .main-header .header-upper .search-info .form-group button:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .main-header .header-lower .category-box p{
-  background: #ff4135;
+  background: #2CE8CB;
 }
 
 .main-header .header-lower .category-box .category-content li a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .banner-style-two .content-box h1 span{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .theme-btn-three{
-  background: #ff4135;
+  background: #2CE8CB;
 }
 
 .service-style-two .service-block-one .inner-box h3 a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .main-footer.light .footer-top .links-widget .links-list li a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .main-footer.light .footer-top .contact-widget .info-list li a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .service-style-three .service-block-one:hover{
-  border-color: #ff4135;
+  border-color: #2CE8CB;
 }
 
 .service-style-three .service-block-one:hover:before{
-  border-color: #ff4135;
+  border-color: #2CE8CB;
 }
 
 .topcategory-section-two .single-item .inner-box .content-box h3 a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .deals-section .inner-box .price span{
@@ -257,7 +257,7 @@
 }
 
 .shop-block-two .inner-box .image-box .info-list li a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .shop-block-two .inner-box .image-box .info-list li span{
@@ -282,7 +282,7 @@
 }
 
 .banner-carousel-3 .content-box h1 span{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .banner-style-four .banner-carousel-3 .owl-prev:hover,
@@ -295,24 +295,24 @@
 }
 
 .shop-sidebar .post-widget .post-inner .post .inner a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .shop-sidebar .post-widget .post-inner .post .image-box{
-  background: #ff4135;
+  background: #2CE8CB;
 }
 
 .main-header.style-four .header-top .info li a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .main-header.style-four .header-lower .category-box .category-content li a:hover:before{
-  border-color: #ff4135;
-  background: #ff4135;
+  border-color: #2CE8CB;
+  background: #2CE8CB;
 }
 
 .main-header.style-four .header-lower .search-info .search-form .form-group button{
-  background: #ff4135;
+  background: #2CE8CB;
 }
 
 .banner-style-three.alternet-2 .inner-box .single-item:first-child{
@@ -328,19 +328,19 @@
 }
 
 .shop-block-three .inner-box .lower-content a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .shop-block-three .inner-box .image-box .info-list li a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .shop-block-three .inner-box .image-box .info-list li span{
-  background: #ff4135;
+  background: #2CE8CB;
 }
 
 .shop-block-three .inner-box .image-box .info-list li span:before{
-  background: #ff4135;
+  background: #2CE8CB;
 }
 
 .deals-style-two .single-column:first-child .single-item .inner-box{
@@ -368,53 +368,53 @@
 }
 
 .shop-block-four .inner-box .image-box{
-  background: #ff4135;
+  background: #2CE8CB;
 }
 
 .shop-block-four .inner-box .inner a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .page-title .content-box .bread-crumb li a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .about-section .text-inner h2 span{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .team-block-one .inner-box .image-box .social-links li a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .team-block-one .inner-box .lower-content h3 a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .service-block-two .inner-box .content-box h2 a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .error-section .inner-box p a{
-  color: #ff4135;
-  border-bottom: 1px solid #ff4135;
+  color: #2CE8CB;
+  border-bottom: 1px solid #2CE8CB;
 }
 
 .shop-page-section .item-shorting .right-column .menu-box a:first-child:hover{
-  background: #ff4135;
+  background: #2CE8CB;
 }
 
 .shop-page-section .item-shorting .right-column .menu-box a:last-child:hover{
-  background: #ff4135;
-  border-color: #ff4135;
+  background: #2CE8CB;
+  border-color: #2CE8CB;
 }
 
 .shop-page-section .item-shorting .filter-box .filter-content .single-column .list li a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .shop-page-section .item-shorting .filter-box .filter-content .close-btn{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .shop-page-section .item-shorting .filter-box .filter-content .single-column .color-list li span.blue{
@@ -422,7 +422,7 @@
 }
 
 .shop-page-section .item-shorting .filter-box .filter-content .single-column .color-list li span.orange{
-  background: #ff4135;
+  background: #2CE8CB;
 }
 
 .shop-page-section .item-shorting .filter-box .filter-content .single-column .color-list li span.green{
@@ -434,42 +434,42 @@
 }
 
 .shop-page-section .item-shorting .filter-box .filter-content .single-column .color-list li a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .shop-page-section .item-shorting .filter-box button:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .sidebar .search-widget .search-form .form-group input:focus{
-  border-color: #ff4135 !important;
+  border-color: #2CE8CB !important;
 }
 
 .sidebar .search-widget .search-form .form-group input:focus + button,
 .sidebar .search-widget .search-form .form-group button:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .sidebar .categories-widget .categories-list li a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .sidebar .categories-widget .categories-list li a:hover:before{
-  background: #ff4135;
-  border-color: #ff4135;
+  background: #2CE8CB;
+  border-color: #2CE8CB;
 }
 
 .sidebar .size-widget .size-list li a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .sidebar .size-widget .size-list li a:hover:before{
-  background: #ff4135;
-  border-color: #ff4135;
+  background: #2CE8CB;
+  border-color: #2CE8CB;
 }
 
 .sidebar .color-widget .color-list li a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .sidebar .color-widget .color-list li span.blue{
@@ -477,7 +477,7 @@
 }
 
 .sidebar .color-widget .color-list li span.orange{
-  background: #ff4135;
+  background: #2CE8CB;
 }
 
 .sidebar .color-widget .color-list li span.green{
@@ -489,11 +489,11 @@
 }
 
 .shop-block-five .inner-box .content-box .info-list li a:hover{
-  background: #ff4135 !important;
+  background: #2CE8CB !important;
 }
 
 .shop-block-five .inner-box .image-box{
-  background: #ff4135;
+  background: #2CE8CB;
 }
 
 .shop-block-five .inner-box .image-box .category{
@@ -513,7 +513,7 @@
 }
 
 .product-details-content .product-image a:hover{
-  background: #ff4135; 
+  background: #2CE8CB; 
 }
 
 .product-details-content .product-info .rating-box li{
@@ -521,20 +521,20 @@
 }
 
 .product-details-content .product-info .reviews a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .product-details-content .product-info .othre-options .info li a:hover{
-  background: #ff4135;
-  border-color: #ff4135;
+  background: #2CE8CB;
+  border-color: #2CE8CB;
 }
 
 .product-details-content .product-info .other-links li a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .product-details-content .product-info .share-option li a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .product-details .product-discription .tabs-content .rating li{
@@ -543,12 +543,12 @@
 
 .product-details .product-discription .tabs-content .replay-inner .review-form .form-group input:focus,
 .product-details .product-discription .tabs-content .replay-inner .review-form .form-group textarea:focus{
-  border: 1px solid #ff4135 !important;
+  border: 1px solid #2CE8CB !important;
 }
 
 .product-details-content .product-info .size-box .custom-radio .custom-control-input:checked~.custom-control-label::before{
-  border: 2px solid #ff4135;
-  background: #ff4135;
+  border: 2px solid #2CE8CB;
+  background: #2CE8CB;
 }
 
 .color-box .color-block.blue [type="radio"]:checked + label:before,
@@ -567,27 +567,27 @@
 }
 
 .checkout-section .upper-box .single-box a{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .checkout-section .billing-form .form-group input:focus{
-  border-color: #ff4135 !important;
+  border-color: #2CE8CB !important;
 }
 
 .checkout-section .additional-info .note-book textarea:focus{
-  border-color: #ff4135 !important;
+  border-color: #2CE8CB !important;
 }
 
 .checkout-section .payment-info .payment-inner .custom-controls-stacked .description a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .myaccount-section .inner-box .default-form .form-group input:focus{
-  border-color: #ff4135 !important;
+  border-color: #2CE8CB !important;
 }
 
 .myaccount-section .inner-box .default-form .form-group .recover-password{
-  color: #ff4135;
+  color: #2CE8CB;
   border-bottom: 1px solid #ff8880;
 }
 
@@ -600,59 +600,59 @@
 }
 
 .myaccount-section .inner-box .lower-inner .social-links li a:hover{
-  background: #ff4135 !important;
+  background: #2CE8CB !important;
 }
 
 .myaccount-section .inner-box .lower-inner p a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .news-block-one .inner-box .lower-content h2 a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .blog-sidebar .post-widget .post-inner .post .post-thumb{
-  background: #ff4135;
+  background: #2CE8CB;
 }
 
 .blog-sidebar .post-widget .post-inner .post h4 a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .blog-sidebar .archives-widget .archives-list li a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .blog-sidebar .archives-widget .archives-list li a:hover:before{
-  border-color: #ff4135;
-  background: #ff4135;
+  border-color: #2CE8CB;
+  background: #2CE8CB;
 }
 
 .blog-sidebar .instagram-widget .image-list li .image-box{
-  background: #ff4135;
+  background: #2CE8CB;
 }
 
 .blog-details-content .inner-box .post-info li a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .blog-details-content .comments-form-area .comment-form .form-group input:focus,
 .blog-details-content .comments-form-area .comment-form .form-group textarea:focus{
-  border-color: #ff4135 !important;
+  border-color: #2CE8CB !important;
 }
 
 .address-section .single-adderss-block .inner-box .info-list li a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .mobile-menu .contact-info ul li a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .mobile-menu .social-links li a:hover{
-  color: #ff4135;
+  color: #2CE8CB;
 }
 
 .mobile-menu .menu-backdrop{
-  background: #ff4135;
+  background: #2CE8CB;
 }

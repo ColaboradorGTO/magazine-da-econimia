@@ -24,3 +24,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('home.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+# Admin 
+admin.AdminSite.site_header = 'Magazine Da Economia GTO'
+admin.AdminSite.site_title = 'Magazine Da Economia GTO'
+admin.AdminSite.index_title = 'Magazine Da Economia GTO'

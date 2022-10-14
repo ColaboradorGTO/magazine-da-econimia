@@ -7,7 +7,7 @@
                                         <th>&nbsp;</th>
                                         <th class="price">Preço</th>
                                         <th class="quantity">Quantidade</th>
-                                        <th class="quantity">Update</th>
+                                        <th class="quantity">Atualizar</th>
                                         <th>Subtotal</th>
                                     </tr>    
                                 </thead>
@@ -27,9 +27,15 @@
                                                 <button class="delete-item" data-item="{{ product_id}}"> EXCLUIR
                                                 </button> -->
 
-                                                <!-- Update -->
-                                                <input type="numer" class="product-qty-{{ product_id}}" value="{{ item.qty }}" name="">
+                                                <!-- Update 
+                                                <label>Update</label>
+                                                <input type="number" class="product-qty-{{ product_id}}" value="{{ item.qty }}" name="">
+
+                                                -->
+                                                
+                                                <!-- 
                                                 <button class="update-item" data-item="{{ product_id }}" >UPPPP</button>
+                                                -->
 
 
 
@@ -43,14 +49,15 @@
                                                     <a href="#"><img src="/product/{{ item.image }}" alt=""></a>
                                                 </div>
                                                 <div class="prod-title">
-                                                    {{ product_id.title }}
+                                                    {{ item.title }}
                                                 </div>    
                                             </div>
                                         </td>
                                         <td class="price">R$  {{ item.price }}</td>
                                         <td class="qty">
                                             <div class="item-quantity">
-                                                <input class="quantity-spinner product-qty-{{product_id}}" type="text" value="{{ item.qty }}" name="quantity">
+                                                <input class="quantity-spinner product-qty-{{ product_id}}" type="number" value="{{ item.qty }}" name="quantity">
+                                               <!-- <input type="number" class="product-qty-{{ product_id}}" value="{{ item.qty }}" name=""> -->
                                             </div>
                                         </td>
                                         <td class="price"><button class="update-item" data-item="{{ product_id }}">Update</button></td>

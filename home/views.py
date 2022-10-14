@@ -27,6 +27,10 @@ def header(request):
 	return render(request,  'home/includes/header.html', context)
 
 
+def product_list(request):
+	return render(request, 'home/lista-de-produtos.html')	
+
+
 def product_details(request, pk):
 	product = Product.objects.all()
 	product_detail = Product.objects.get(id=pk)

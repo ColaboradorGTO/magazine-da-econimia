@@ -10,6 +10,7 @@ urlpatterns = [
     path('', views.index, name='index'),
     path('detalhes-do-produto/<int:pk>/', views.product_details, name='detalhes-do-produto'),
     path('carrinho/', views.cart, name='carrinho'), 
+    path('lista-de-produtos/', views.product_list, name="lista-de-produtos"), 
 
     # Cart ajax 
     path('add-to-cart', views.add_to_cart, name='add-to-cart'), 

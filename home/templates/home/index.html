@@ -1,13 +1,13 @@
 {% load static  %}
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
-<title>Detalhes do produto</title>
+<title>Magazine Da Economia</title>
 
 
 {% include 'home/includes/css.html' %}
@@ -34,11 +34,11 @@
                     <div class="auto-container">
                         <div class="content-inner">
                             <div class="content-box">
-                                <h1>{{ offer.title }} <br /><span>50%</span> Desconto</h1>
-                                <h3>Summer Lookbook - 2020</h3>
+                                <h1>{{ offer.title }} <br /><span>{{ offer.discount }} %</span> Desconto</h1>
+                                <h3>Confira nossas ofertas exclusivas</h3>
                                 <p>{{ offer.description }}</p>
                                 <div class="btn-box">
-                                    <a href="index.html" class="theme-btn-one">Ver todos os produtos<i class="flaticon-right-1"></i></a>
+                                    <a href="/" class="theme-btn-one">Ver todos os produtos<i class="flaticon-right-1"></i></a>
                                 </div>
                             </div>
                             <figure class="image-box image-1"><img src="{{ offer.image.thumb.url }}" alt=""></figure>
@@ -135,7 +135,7 @@
 
                         {% for product in product_list %}
 
-                        <h1>fgbbbbbtbt</h1>
+                
 
                         <span class="product-price-{{product.price}}">{{ product.price }}</span>
 
@@ -190,15 +190,15 @@
         <section class="news-section">
             <div class="auto-container">
                 <div class="sec-title">
-                    <h2>Yorus Blog</h2>
-                    <p>Excepteur sint occaecat cupidatat non proident sunt</p>
-                    <span class="separator" style="background-image: url(assets/images/icons/separator-1.png);"></span>
+                    <h2>Blog</h2>
+                    <p>Confira nossas últimas novidades</p>
+                    <span class="separator" style="background-image: url({% static 'home/assets/images/icons/separator-1.png' %});"></span>
                 </div>
                 <div class="row clearfix">
                    
                    
                    
-                
+                    {% comment %}
                     <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                         <div class="news-block-one wow fadeInUp animated animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div class="inner-box">
@@ -216,6 +216,7 @@
                             </div>
                         </div>
                     </div>
+                    {% endcomment %}
                
                
                 </div>
@@ -233,8 +234,8 @@
                             <div class="service-block-one">
                                 <div class="inner-box">
                                     <div class="icon-box"><i class="flaticon-truck"></i></div>
-                                    <h3><a href="index.html">Frete gratis</a></h3>
-                                    <p>O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão.</p>
+                                    <h3><a href="index.html">Frete grátis para o DF</a></h3>
+                                    <p>Para compras a parti de R$150,00</p>
                                 </div>
                             </div>
                         </div>
@@ -242,8 +243,8 @@
                             <div class="service-block-one">
                                 <div class="inner-box">
                                     <div class="icon-box"><i class="flaticon-credit-card"></i></div>
-                                    <h3><a href="index.html">Segurança</a></h3>
-                                    <p>O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão.</p>
+                                    <h3><a href="index.html">30 dias de retorno</a></h3>
+                                    <p>Basta devolvê-lo no prazo de 30 dias para uma troca</p>
                                 </div>
                             </div>
                         </div>
@@ -251,8 +252,8 @@
                             <div class="service-block-one">
                                 <div class="inner-box">
                                     <div class="icon-box"><i class="flaticon-24-7"></i></div>
-                                    <h3><a href="index.html">Support 24/7</a></h3>
-                                    <p>O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão.</p>
+                                    <h3><a href="index.html">Compra 100% segura</a></h3>
+                                    <p>Seus dados estão protegidos.</p>
                                 </div>
                             </div>
                         </div>
@@ -260,8 +261,8 @@
                             <div class="service-block-one">
                                 <div class="inner-box">
                                     <div class="icon-box"><i class="flaticon-undo"></i></div>
-                                    <h3><a href="index.html">30 garantia</a></h3>
-                                    <p>O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão..</p>
+                                    <h3><a href="index.html">Parcelamento</a></h3>
+                                    <p>Parcele em até 8x sem juros no Cartão Tesoura.</p>
                                 </div>
                             </div>
                         </div>
@@ -277,8 +278,8 @@
             <div class="outer-container">
                 <div class="sec-title">
                     <h2>Nossas Marcas</h2>
-                    <p>A Yorus trabalha com as melhores marcas do mercado</p>
-                    <span class="separator" style="background-image: url(assets/images/icons/separator-1.png);"></span>
+                    <p>Trabalhamos com ótimas marcas</p>
+                    <span class="separator" style="background-image: url({% static 'home/assets/images/icons/separator-1.png' %});"></span>
                 </div>
                 <div class="six-item-carousel owl-carousel owl-theme owl-dots-none owl-nav-none">
                     
